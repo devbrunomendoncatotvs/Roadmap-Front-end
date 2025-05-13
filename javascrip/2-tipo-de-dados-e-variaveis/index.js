@@ -1,4 +1,4 @@
-//Tipos Primitivos
+//1-Tipos Primitivos
 let name = "Bruno"; //String
 let age = 26; //Number
 let isActive = true; //Boolean
@@ -7,7 +7,7 @@ let empty = null; //Null
 let bigInt = 1234567890123456789012345678901234567890n; //BigInt
 let symbol = Symbol("id"); //Symbol
 
-//Tipos de Referência
+//2-Tipos de Referência
 let person = {
   name: "Bruno",
   age: 26,
@@ -15,7 +15,7 @@ let person = {
 }; //Object
 let numbers = [1, 2, 3, 4, 5]; //Array
 
-//Verificar o Tipo com typeof
+//3-Verificar o Tipo com typeof
 console.log(typeof name); //string
 console.log(typeof age); //number
 console.log(typeof isActive); //boolean
@@ -30,7 +30,7 @@ console.log(typeof undefined); //undefined
 console.log(typeof NaN); //number
 console.log(typeof Infinity); //number
 
-//Conversão de Tipos
+//4-Conversão de Tipos
 String(123); //"123"
 123 + ""; // "123"
 
