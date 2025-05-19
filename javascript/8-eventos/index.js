@@ -48,12 +48,12 @@ window.addEventListener("scroll", () => {
   console.log("A página foi rolada!");
 });
 //2.10-Evento (focus)
-const inputFocus = document.getElementById("input-focus");
+const inputFocus = document.getElementById("input-text");
 inputFocus.addEventListener("focus", () => {
   console.log("O input está em foco!");
 });
 //2.10-Evento (input)
-const input = document.getElementById("input");
+const input = document.getElementById("input-text");
 input.addEventListener("input", (event) => {
   console.log(`O valor do input é: ${event.target.value}`);
 });
