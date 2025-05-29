@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { FirstComponent } from './components/first-component/first-component';
 import { ParentData } from './components/parent-data/parent-data';
+import { Directives } from './components/directives/directives';
 
 @Component({
   selector: 'app-root',
-  imports: [FirstComponent, ParentData],
+  imports: [FirstComponent, ParentData, Directives],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
