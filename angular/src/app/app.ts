@@ -5,10 +5,19 @@ import { Directives } from './components/directives/directives';
 import { IfRender } from './components/if-render/if-render';
 import { Events } from './components/events/events';
 import { Emitter } from './components/emitter/emitter';
+import { RenderList } from './components/render-list/render-list';
 
 @Component({
   selector: 'app-root',
-  imports: [FirstComponent, ParentData, Directives, IfRender, Events, Emitter],
+  imports: [
+    FirstComponent,
+    ParentData,
+    Directives,
+    IfRender,
+    Events,
+    Emitter,
+    RenderList,
+  ],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
